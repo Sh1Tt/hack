@@ -1,1 +1,4 @@
-[ "hns.is", "rsvr.xyz" ]
+const pool = {
+  global: [ "hns.is", "rsvr.xyz" ],
+  blazin: [ "hdns.co" ],
+}
