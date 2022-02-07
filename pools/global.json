@@ -1,5 +1,5 @@
 {
-  "pool" = {
+  "pool": {
     global: [ "hns.is", "rsvr.xyz" ],
     blazin: [ "hdns.co" ],
   }
