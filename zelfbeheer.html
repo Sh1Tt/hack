@@ -9,7 +9,11 @@
           h: window.innerHeight
         };
 
-        const myMap = () => `<iframe src="https://www.google.com/maps/d/embed?mid=1AslRVRNzMethg2_RFLlM10AVr0rbd-Ba&ehbc=2E312F" width="${size.w}" height="${size.h}"></iframe>`
+        function myMap()
+        {
+          return '<iframe src="https://www.google.com/maps/d/embed?mid=1AslRVRNzMethg2_RFLlM10AVr0rbd-Ba&ehbc=2E312F" width="'+size.w+'" height="'+size.h+'"></iframe>';
+        }
+        
       })();
     </script>
   </head>
